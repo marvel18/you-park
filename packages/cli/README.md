@@ -1,6 +1,6 @@
 # `@saas/cli`
 
-`you-park` — first-class TypeScript CLI for the YouPark control
+`you-park` — first-class TypeScript CLI for the You Park control
 plane. Wraps `@saas/sdk` (the only transport allowed) and surfaces a
 small set of read-only commands today; write commands land in Task 0101.
 

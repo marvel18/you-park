@@ -1,7 +1,7 @@
 # `@saas/sdk`
 
-YouPark TypeScript SDK — typed, dependency-free, runtime-agnostic client
-for the YouPark control plane API.
+You Park TypeScript SDK — typed, dependency-free, runtime-agnostic client
+for the You Park control plane API.
 
 ## Install (workspace)
 

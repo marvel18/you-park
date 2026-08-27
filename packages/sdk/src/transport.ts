@@ -18,7 +18,7 @@ export type AuthOption =
 export interface ClientOptions {
   /**
    * Base URL of the YouPark api-edge worker, e.g.
-   * `https://api.youpark.app`. Trailing slash is stripped.
+   * `https://api.youpark.dev`. Trailing slash is stripped.
    */
   baseUrl: string;
   /** Optional auth credential; sent on every request when present. */

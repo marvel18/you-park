@@ -25,7 +25,7 @@ Then `pnpm install` from the repo root.
 import { YouPark } from "@saas/sdk";
 
 const client = new YouPark({
-  baseUrl: "https://api.youpark.app",
+  baseUrl: "https://api.youpark.dev",
   auth: { kind: "bearer", token: process.env["YOU_PARK_TOKEN"]! },
 });
 

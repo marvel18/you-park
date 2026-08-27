@@ -10,10 +10,10 @@
 export const CLI_BIN = "you-park";
 
 /** Product/brand name used in human-facing CLI copy. */
-export const PRODUCT_NAME = "YouPark";
+export const PRODUCT_NAME = "You Park";
 
 /** Default API base URL when `--api-url` is not supplied. */
-export const DEFAULT_API_URL = "https://api.youpark.app";
+export const DEFAULT_API_URL = "https://api.youpark.dev";
 
 /** OS keychain service name for stored credentials. */
 export const KEYCHAIN_SERVICE = `${CLI_BIN}-cli`;

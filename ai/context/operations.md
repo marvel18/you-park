@@ -121,9 +121,9 @@ are versioned workflows run by remote reference — from anywhere, with the
 two tokens above exported:
 
 ```bash
-orun workflow run github:sourceplane/cirrus@main//flows/phases/08-docs/workflow.yaml \
+orun workflow run github:sourceplane/you-park@main//flows/phases/08-docs/workflow.yaml \
   --set workspace=<ws> --set repo=<owner/name>     # docs refresh
-orun workflow run github:sourceplane/cirrus@main//flows/phases/07-domain/workflow.yaml \
+orun workflow run github:sourceplane/you-park@main//flows/phases/07-domain/workflow.yaml \
   --set workspace=<ws> --set repo=<owner/name>     # custom domain
 ```
 

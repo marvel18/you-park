@@ -1,7 +1,7 @@
 # @saas/webhook-verifier
 
 Zero-dependency, WebCrypto-only HMAC-SHA256 signature verifier for
-YouPark outbound webhook deliveries. Runs verbatim on Cloudflare
+You Park outbound webhook deliveries. Runs verbatim on Cloudflare
 Workers, Bun, modern Node, and browsers.
 
 ```ts
@@ -30,5 +30,5 @@ export async function handler(request: Request): Promise<Response> {
 your clocks are tightly synchronized, raise it if they aren't.
 
 The companion `signWebhookPayload({ secret, body, timestamp })` helper
-produces the exact `sha256=<hex>` header value YouPark emits — useful
+produces the exact `sha256=<hex>` header value You Park emits — useful
 for fixtures and symmetric debugging.

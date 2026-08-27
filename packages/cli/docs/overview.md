@@ -1,6 +1,6 @@
 # cli
 
-First-class TypeScript CLI for the YouPark control plane API
+First-class TypeScript CLI for the You Park control plane API
 
 A workspace package built by the turbo pipeline. It deploys nothing on its own — its lane type-checks, lints, tests, and builds it for the components that depend on it.
 

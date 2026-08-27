@@ -1,6 +1,6 @@
 # sdk
 
-Runtime-agnostic TypeScript SDK for the YouPark control plane API
+Runtime-agnostic TypeScript SDK for the You Park control plane API
 
 A workspace package built by the turbo pipeline. It deploys nothing on its own — its lane type-checks, lints, tests, and builds it for the components that depend on it.
 
